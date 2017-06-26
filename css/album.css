@@ -1,0 +1,200 @@
+
+.jumbotron {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 600;
+}
+
+.jumbotron .container {
+  max-width: 100%;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+/*@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);*/
+        body{
+           background-color: #efefef;
+       /*s*/
+         }
+
+        div.frame {
+          padding-left: 55px;
+          padding-right: 55px;
+        }
+
+        th { 
+          font-size: 12px; 
+        }
+        td { 
+          font-size: 11px; 
+        }
+
+        /* Back to top button*/
+        #backTop{
+            width:35px;
+            height:35px;
+            padding:10px;
+            border-radius:4px;
+            text-indent:-9999px;
+            cursor:pointer;
+            z-index:999999999;
+            display:none;
+            box-sizing:content-box;
+            -webkit-box-sizing:content-box;
+        }
+        #backTop.black{
+             background:url(../img/uparr-48-b.png) no-repeat center center rgba(255,255,255,0.8);
+             border:1px solid #ccc;
+        }
+        #backTop.white{
+             background:url(../img/uparr-48-w.png) no-repeat center center rgba(255,255,255,0.8);
+             border:1px solid #ccc;
+        }
+
+        div.footer {
+          padding-bottom: 50px;
+        }
+
+        /*Disable Search Box*/
+        .dataTables_filter {
+           display: none;
+        }
+
+    /*Search Box*/
+    .stylish-input-group .input-group-addon{
+        background: white !important; 
+    }
+    .stylish-input-group .form-control{
+      border-right:0; 
+      box-shadow:0 0 0; 
+      border-color:#ccc;
+    }
+    .stylish-input-group button{
+        border:0;
+        background:transparent;
+    }
+
+  /*Check Boxes*/
+  .custom-checkbox > [type="checkbox"],
+  .custom-checkbox > label{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-bottom:0px !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom-checkbox > [type="checkbox"]:not(:checked),
+  .custom-checkbox > [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+  }
+  .custom-checkbox > [type="checkbox"]:not(:checked) + label,
+  .custom-checkbox > [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+  }
+  .custom-checkbox > [type="checkbox"]:not(:checked) + label:before,
+  .custom-checkbox > [type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; 
+    top: 50%;
+    margin-top:-9px;
+    width: 17px; 
+    height: 17px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+  .custom-checkbox > [type="checkbox"]:not(:checked) + label:after,
+  .custom-checkbox > [type="checkbox"]:checked + label:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    top: 50%;
+    margin-top:-12px;
+    left: 2px;
+    color: black;
+    xtransition: all .2s;
+  }
+  
+  .custom-checkbox > [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .custom-checkbox > [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .custom-checkbox > [type="checkbox"][data-indeterminate] + label:after,
+  .custom-checkbox > [type="checkbox"][data-indeterminate] + label:after {
+    content: '\f00c';
+    left: 2px;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .custom-checkbox > [type="checkbox"]:disabled:not(:checked) + label:before,
+  .custom-checkbox > [type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    cursor: not-allowed;
+    opacity: 1;
+    color: #dadada;
+  }
+  .custom-checkbox > [type="checkbox"]:disabled:checked + label:after {
+    color: #dadada; cursor: not-allowed;
+  }
+  .custom-checkbox > [type="checkbox"]:disabled + label {
+    color: #aaa; cursor: not-allowed;
+  }
+  .custom-checkbox > [type="checkbox"]:checked:focus + label:before,
+  .custom-checkbox > [type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px solid #66afe9;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  .custom-checkbox > label:hover:before {
+      border: 1px solid #88D2FF !important;
+  }
+  .custom-checkbox > [type="checkbox"]:disabled:not(:checked) + label:hover:before,
+  .custom-checkbox > [type="checkbox"]:disabled:checked + label:hover:before{
+    border: 1px solid #E4E4E4 !important;
+  }
+
+
